@@ -1,0 +1,9 @@
+version: "3"
+services:
+  tg-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tg-bot
+    command: >
+      bash -c "poetry run python3 main.py"

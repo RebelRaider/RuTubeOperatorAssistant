@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tg-assistant"
+version = "0.1.0"
+description = ""
+authors = ["rebelraider <leonid.chesnikov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-telegram-bot = "^21.6"
+aiohttp = "^3.10.6"
+python-dotenv = "^1.0.1"
+ruff = "^0.6.8"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
